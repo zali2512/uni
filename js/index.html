@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <h2 class="title"> Уравнение Фишера </h2>
+       <h3 class="task"> Уравнение Фишера - уравнение обмена, главное уравнение количественной теории денег, положенной в основу современного монетаризма, который трактует деньги как основной элемент рыночного хозяйства.
+        Согласно уравнению Фишера произведение величины <b>денежной массы</b> на скорость <b>обращения денег</b> равно произведению <b>уровня цен</b> на объем <b>национального продукта</b>.</h3>
+        <p>где <b>М</b> - количество денег в обращении;</p>
+           <p> <b>V</b> - скорость обращения денег;</p> 
+           <p> <b>Р</b> - уровень цен;</p> 
+           <p> <b>Q</b> - объем (количество) товаров.</p>
+      <div class="task-content">
+       <h3> V:</h3><input id="v" value="" autocomplete="off">
+       <h3> P:</h3><input id="p" value="" autocomplete="off">
+       <h3> Q:</h3><input id="q" value="" autocomplete="off">
+      </div>
+          <div class="task-text">
+          <h3 class="formula">
+              M=(P*Q)/V
+          </h3>
+          <h3> M:</h3> <p id="res"></p></div>
+       <div class="button">
+           <button id="btn"> click </button>
+       </div>
+
+   </div>
+<script src="js.js"></script>
+</body>
+</html>
